@@ -11,7 +11,7 @@ app.use(express.json()) // getting data from browser, its not readable, hence we
 app.use(express.urlencoded({extended:true})) 
 
 // Google OAuth 2.0 credentials
-const googleClientId = '437217891511-d80h8ddlamm8nedj7kthu9mt3hok3e5r.apps.googleusercontent.com';
+const googleClientId = '437217891511-39ii7e3mjnqq6qmh6qssomoag7b12asb.apps.googleusercontent.com';
 const googleClientSecret = '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';
 
 // Route to initiate Google OAuth 2.0 sign-in
